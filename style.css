@@ -37,7 +37,7 @@ img {
       border-radius: 40px;
   }
 
-a {
+.hover {
     text-decoration: none;
     color: white;
     transition: color 1s; 
@@ -50,7 +50,7 @@ a {
     font-weight: bold;
 }
 
-a:hover {
+.hover:hover {
     color: #000;
     background: #fff;
 }
