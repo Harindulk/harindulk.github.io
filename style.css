@@ -50,6 +50,7 @@ img {
   }
 
   .link-button {
+    color:black;
     text-align: center;
     width: 290px;
     height: 65px;
@@ -59,6 +60,7 @@ img {
     margin-top: 20px;
     padding: 20px;
   }
+  
 
 .hover {
     text-decoration: none;
