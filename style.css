@@ -6,87 +6,73 @@ body {
 
 @keyframes gradient {
   0% {
-      background-position: 0% 50%;
+    background-position: 0% 50%;
   }
 
   50% {
-      background-position: 100% 50%;
+    background-position: 100% 50%;
   }
 
   100% {
-      background-position: 0% 50%;
+    background-position: 0% 50%;
   }
 }
 
 img {
-    border-radius: 50%;
-  }
+  border-radius: 50%;
+}
 
 .profile-picture {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5%;
-    height: auto;
-    max-width: 100px;
-  }
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  height: auto;
+  max-width: 100px;
+}
 
 .profile-name {
-      text-align: center;
-      padding: 10px;
-  }
+  text-align: center;
+  padding: 10px;
+}
 
 .links {
-      text-align: center;
-      margin-top: 20px;
-      padding: 20px;
-      border: 1px solid rgb(0, 0, 0);
-      border-width: 2px;
-      width: 290px;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      border-radius: 40px;
-  }
-
-  .link-button {
-    color:black;
-    text-align: center;
-    width: 290px;
-    height: 65px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 40px;
-    margin-top: 20px;
-    padding: 20px;
-  }
-  
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+  border: 0.5px solid rgb(255, 255, 255);
+  border-width: 1px;
+  width: 290px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 40px;
+}
 
 .hover {
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    transition: color 1s; 
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  transition: color 1s;
+}
+
+.hover:hover {
+  color: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
+  text-decoration: none;
 }
 
 .bottom-text {
   text-decoration: none;
-    text-align: center;
-    margin-top: 40px;
-    font-size: 20px;
-    font-weight: bold;
-    color: rgb(0, 0, 0);
-  
+  text-align: center;
+  margin-top: 40px;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  font-family:Arial, Helvetica, sans-serif;
 }
 
-.link-hide{
+.link-hide {
   text-decoration: none;
 }
-.link-hide:hover{
+.link-hide:hover {
   text-decoration: none;
 }
-
-.hover:hover {
-    color: rgb(255, 255, 255);
-    background: rgb(0, 0, 0);
-}
-
