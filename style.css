@@ -44,10 +44,17 @@ img {
 }
 
 .bottom-text {
+  text-decoration: none;
     text-align: center;
     margin-top: 40px;
     font-size: 20px;
     font-weight: bold;
+    color: rgb(255, 255, 255);
+
+}
+
+.link-hide{
+  text-decoration: none;
 }
 
 .hover:hover {
