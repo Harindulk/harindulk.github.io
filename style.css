@@ -53,12 +53,10 @@ img {
 }
 
 .links-in {
-  text-align: center;
-  margin-right: 100px;
-  padding: 10px;
+  padding: 5px;
   border: 0.5px solid rgb(255, 255, 255);
   border-width: 1px;
-  width: 40px;
+  width: 30px;
   display: block;
   border-radius: 40px;
 }
