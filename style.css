@@ -50,6 +50,8 @@ img {
   margin-right: auto;
   border-radius: 40px;
   font-family: 'Dosis', sans-serif;
+  position: relative;
+
 }
 
 .links-in {
@@ -59,6 +61,9 @@ img {
   width: 30px;
   display: block;
   border-radius: 40px;
+  left:20px;
+  position: absolute;
+
 }
 
 .hover {
