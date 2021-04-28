@@ -34,6 +34,7 @@ img {
 .profile-name {
   text-align: center;
   padding: 10px;
+  font-family: 'Dosis', sans-serif;
 }
 
 .links {
@@ -47,7 +48,8 @@ img {
   margin-left: auto;
   margin-right: auto;
   border-radius: 40px;
-  
+  font-family: 'Dosis', sans-serif;
+
 }
 
 .links-in {
