@@ -36,6 +36,17 @@ img {
   padding: 10px;
   font-family: "Dosis", sans-serif;
   color: white;
+  font-size: 22px;
+  letter-spacing:2px;
+}
+
+.profile-about {
+  text-align: center;
+  padding: 2px;
+  font-family: "Dosis", sans-serif;
+  color: white;
+  font-size: 15px;
+  letter-spacing:2px;
 }
 
 .links {
@@ -44,32 +55,29 @@ img {
   padding: 20px;
   border: 0.5px solid rgb(255, 255, 255);
   border-width: 1px;
-  width: 290px;
+  width: 490px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   border-radius: 40px;
   font-family: "Dosis", sans-serif;
   position: relative;
-
-  
+  font-size: 20px;  
+  letter-spacing:3px;
 }
 
 .links-in {
   padding: 5px;
-  border: 0.5px solid rgb(255, 255, 255);
+  border: 0.5px solid rgba(255, 255, 255, 0);
   border-width: 1px;
   width: 30px;
   display: block;
   border-radius: 40px;
   left: 20px;
   position: absolute;
-  
+  font-size: 20px;
 }
 
-.links-in:hover {
-  border: 0.5px solid rgb(0, 0, 0);
-}
 
 .hover {
   text-decoration: none;
@@ -98,3 +106,31 @@ img {
 .link-hide:hover {
   text-decoration: none;
 }
+
+
+@media (max-width: 548px) {
+  .links {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    border: 0.5px solid rgb(255, 255, 255);
+    border-width: 1px;
+    width: 290px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    font-family: "Dosis", sans-serif;
+    position: relative;
+  
+  }
+  .profile-about {
+    text-align: center;
+    padding: 2px;
+    font-family: "Dosis", sans-serif;
+    color: white;
+    font-size: 15px;
+    letter-spacing:1px;
+  }
+}
+
