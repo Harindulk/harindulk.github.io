@@ -34,8 +34,8 @@ img {
 .profile-name {
   text-align: center;
   padding: 10px;
-  font-family: 'Dosis', sans-serif;
-  color:white; 
+  font-family: "Dosis", sans-serif;
+  color: white;
 }
 
 .links {
@@ -49,9 +49,10 @@ img {
   margin-left: auto;
   margin-right: auto;
   border-radius: 40px;
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   position: relative;
 
+  
 }
 
 .links-in {
@@ -61,9 +62,13 @@ img {
   width: 30px;
   display: block;
   border-radius: 40px;
-  left:20px;
+  left: 20px;
   position: absolute;
+  
+}
 
+.links-in:hover {
+  border: 0.5px solid rgb(0, 0, 0);
 }
 
 .hover {
@@ -84,7 +89,8 @@ img {
   margin-top: 40px;
   font-size: 20px;
   color: rgb(255, 255, 255);
-  font-family: 'Handlee', cursive;}
+  font-family: "Handlee", cursive;
+}
 
 .link-hide {
   text-decoration: none;
