@@ -37,7 +37,7 @@ img {
   font-family: "Dosis", sans-serif;
   color: white;
   font-size: 22px;
-  letter-spacing:2px;
+  letter-spacing: 2px;
 }
 
 .profile-about {
@@ -46,7 +46,7 @@ img {
   font-family: "Dosis", sans-serif;
   color: white;
   font-size: 15px;
-  letter-spacing:2px;
+  letter-spacing: 2px;
 }
 
 .links {
@@ -62,8 +62,8 @@ img {
   border-radius: 40px;
   font-family: "Dosis", sans-serif;
   position: relative;
-  font-size: 20px;  
-  letter-spacing:3px;
+  font-size: 20px;
+  letter-spacing: 3px;
 }
 
 .links-in {
@@ -106,7 +106,6 @@ img {
   text-decoration: none;
 }
 
-
 @media (max-width: 548px) {
   .links {
     text-align: center;
@@ -121,7 +120,6 @@ img {
     border-radius: 40px;
     font-family: "Dosis", sans-serif;
     position: relative;
-  
   }
   .profile-about {
     text-align: center;
@@ -129,7 +127,7 @@ img {
     font-family: "Dosis", sans-serif;
     color: white;
     font-size: 15px;
-    letter-spacing:1px;
+    letter-spacing: 1px;
   }
 }
 
@@ -144,10 +142,4 @@ img {
   text-align: center;
   margin: 10px;
   margin-top: 50px;
-
 }
-
-
-
-
-
