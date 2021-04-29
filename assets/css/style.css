@@ -93,7 +93,7 @@ img {
 .bottom-text {
   text-decoration: none;
   text-align: center;
-  margin-top: 40px;
+  margin-top: 30px;
   font-size: 20px;
   color: rgb(255, 255, 255);
   font-family: "Handlee", cursive;
@@ -143,6 +143,8 @@ img {
   font-size: 20px;
   text-align: center;
   margin: 10px;
+  margin-top: 40px;
+
 }
 
 
