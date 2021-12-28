@@ -70,6 +70,9 @@ body {
   color: rgb(0, 0, 0);
   background: rgb(255, 255, 255);
   text-decoration: none;
+  
+  transform: scale(1.03);
+
 }
 
 .bottom-text {
