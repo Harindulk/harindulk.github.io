@@ -1,26 +1,7 @@
 body {
-  background: linear-gradient(-45deg, #d35ecd, #5aad45, #23a6d5, #3a0eb3);
-  background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
+  background-color: rgb(0, 0, 0) !important;
 }
 
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-
-  50% {
-    background-position: 100% 50%;
-  }
-
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
-img {
-  border-radius: 50%;
-}
 
 .profile-picture {
   display: block;
@@ -29,15 +10,16 @@ img {
   margin-top: 5%;
   height: auto;
   max-width: 100px;
+  border-radius: 50%;
 }
 
 .profile-name {
   text-align: center;
   padding: 10px;
-  font-family: "Dosis", sans-serif;
+  font-family: "Karla", sans-serif;
+  font-weight: bold;
   color: white;
-  font-size: 22px;
-  letter-spacing: 2px;
+  font-size: 20px;
 }
 
 .profile-about {
@@ -52,18 +34,18 @@ img {
 .links {
   text-align: center;
   margin-top: 20px;
-  padding: 20px;
-  border: 0.5px solid rgb(255, 255, 255);
-  border-width: 1px;
-  width: 490px;
-  display: block;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 40px;
-  font-family: "Dosis", sans-serif;
+  padding: 15px;
+  border: 0.5px solid rgb(255, 255, 255);
+  border-width: 2px;
+  display: block;
+  border-radius: 0px;
+  font-family: "Karla", sans-serif;
   position: relative;
-  font-size: 20px;
-  letter-spacing: 3px;
+  font-size: 17px;
+  width: 680px;
+  max-width: 95%;
 }
 
 .links-in {
@@ -107,20 +89,6 @@ img {
 }
 
 @media (max-width: 548px) {
-  .links {
-    text-align: center;
-    margin-top: 20px;
-    padding: 20px;
-    border: 0.5px solid rgb(255, 255, 255);
-    border-width: 1px;
-    width: 290px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 40px;
-    font-family: "Dosis", sans-serif;
-    position: relative;
-  }
   .profile-about {
     text-align: center;
     padding: 2px;
