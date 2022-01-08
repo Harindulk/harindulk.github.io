@@ -46,6 +46,7 @@ body {
   font-size: 17px;
   width: 680px;
   max-width: 95%;
+  transition: all 0.3s ease-in-out;
 }
 
 .links-in {
@@ -64,13 +65,14 @@ body {
   text-decoration: none;
   color: rgb(255, 255, 255);
   transition: color 1s;
+  transition: all 0.3s;
 }
 
 .hover:hover {
   color: rgb(0, 0, 0);
   background: rgb(255, 255, 255);
   text-decoration: none;
-  
+  transition: all 0.3s;
   transform: scale(1.03);
 
 }
