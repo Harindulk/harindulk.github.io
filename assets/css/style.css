@@ -2,7 +2,6 @@ body {
   background-color: rgb(0, 0, 0) !important;
 }
 
-
 .profile-picture {
   display: block;
   margin-left: auto;
@@ -69,12 +68,11 @@ body {
 }
 
 .hover:hover {
+  text-decoration: none;
   color: rgb(0, 0, 0);
   background: rgb(255, 255, 255);
-  text-decoration: none;
   transition: all 0.3s;
   transform: scale(1.03);
-
 }
 
 .bottom-text {
@@ -115,4 +113,13 @@ body {
   text-align: center;
   margin: 10px;
   margin-top: 50px;
+  color: rgb(255, 255, 255);
+  transition: color 1s;
+  transition: all 0.3s;
+}
+
+.links-footer:hover {
+  color: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
+  transition: all 0.3s;
 }
