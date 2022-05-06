@@ -1,15 +1,23 @@
-body {
-  background-color: rgb(0, 0, 0) !important;
+.bg {
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.31);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(12.1px);
+  -webkit-backdrop-filter: blur(12.1px);
+  background-image: url("/assets/img/Screenshot\ \(84\).png");
+  background-attachment: fixed;
+ 
 }
 
 .profile-picture {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 5%;
   height: auto;
   max-width: 100px;
   border-radius: 50%;
+  
 }
 
 .profile-name {
@@ -37,9 +45,9 @@ body {
   margin-right: auto;
   padding: 15px;
   border: 0.5px solid rgb(255, 255, 255);
-  border-width: 2px;
+  border-width: 1px;
   display: block;
-  border-radius: 0px;
+  border-radius: 10px;
   font-family: "Karla", sans-serif;
   position: relative;
   font-size: 17px;
@@ -62,16 +70,16 @@ body {
 
 .hover {
   text-decoration: none;
-  color: rgb(255, 255, 255);
-  transition: color 1s;
+  color: rgb(0, 0, 0);
   transition: all 0.3s;
+  background: rgb(255, 255, 255);
 }
 
 .hover:hover {
   text-decoration: none;
   color: rgb(0, 0, 0);
   background: rgb(255, 255, 255);
-  transition: all 0.3s;
+  transition: all 0.2s;
   transform: scale(1.03);
 }
 
@@ -87,6 +95,7 @@ body {
 .link-hide {
   text-decoration: none;
 }
+
 .link-hide:hover {
   text-decoration: none;
 }
@@ -113,9 +122,11 @@ body {
   text-align: center;
   margin: 10px;
   margin-top: 50px;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   transition: color 1s;
   transition: all 0.3s;
+  background: rgb(255, 255, 255);
+
 }
 
 .links-footer:hover {
@@ -123,3 +134,16 @@ body {
   background: rgb(255, 255, 255);
   transition: all 0.3s;
 }
+
+.space{
+  padding-top: 40px;
+}
+
+.drag {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+}
+
