@@ -7,7 +7,7 @@
   -webkit-backdrop-filter: blur(12.1px);
   background-image: url("/assets/img/snow.webp");
   background-attachment: fixed;
- 
+
 }
 
 .profile-picture {
@@ -17,7 +17,7 @@
   height: auto;
   max-width: 100px;
   border-radius: 50%;
-  
+
 }
 
 .profile-name {
@@ -135,7 +135,7 @@
   transition: all 0.3s;
 }
 
-.space{
+.space {
   padding-top: 40px;
 }
 
@@ -147,3 +147,10 @@
   user-drag: none;
 }
 
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Pacifico Regular'), local('Pacifico-Regular'), url(https://fonts.gstatic.com/s/pacifico/v12/FwZY7-Qmy14u9lezJ-6H6MmBp0u-.woff2) format('woff2');
+  font-display: swap;
+}
