@@ -1,13 +1,11 @@
 .bg {
-  /* From https://css.glass */
-  background: rgba(255, 255, 255, 0.31);
+  background: rgba(255, 255, 255, .31);
   border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, .1);
   backdrop-filter: blur(12.1px);
   -webkit-backdrop-filter: blur(12.1px);
-  background-image: url("/assets/img/snow.webp");
-  background-attachment: fixed;
- 
+  background-image: url(https://harindu.me/assets/img/snow.webp);
+  background-attachment: fixed
 }
 
 .profile-picture {
@@ -16,26 +14,25 @@
   margin-right: auto;
   height: auto;
   max-width: 100px;
-  border-radius: 50%;
-  
+  border-radius: 50%
 }
 
 .profile-name {
   text-align: center;
   padding: 10px;
-  font-family: "Karla", sans-serif;
-  font-weight: bold;
-  color: white;
-  font-size: 20px;
+  font-family: Karla, sans-serif;
+  font-weight: 700;
+  color: #fff;
+  font-size: 20px
 }
 
 .profile-about {
   text-align: center;
   padding: 2px;
-  font-family: "Dosis", sans-serif;
-  color: white;
+  font-family: Dosis, sans-serif;
+  color: #fff;
   font-size: 15px;
-  letter-spacing: 2px;
+  letter-spacing: 2px
 }
 
 .links {
@@ -44,43 +41,43 @@
   margin-left: auto;
   margin-right: auto;
   padding: 15px;
-  border: 0.5px solid rgb(255, 255, 255);
+  border: .5px solid #fff;
   border-width: 1px;
   display: block;
   border-radius: 10px;
-  font-family: "Karla", sans-serif;
+  font-family: Karla, sans-serif;
   position: relative;
   font-size: 17px;
   width: 680px;
   max-width: 95%;
-  transition: all 0.3s ease-in-out;
+  transition: all .3s ease-in-out
 }
 
 .links-in {
   padding: 5px;
-  border: 0.5px solid rgba(255, 255, 255, 0);
+  border: .5px solid rgba(255, 255, 255, 0);
   border-width: 1px;
   width: 30px;
   display: block;
   border-radius: 40px;
   left: 20px;
   position: absolute;
-  font-size: 20px;
+  font-size: 20px
 }
 
 .hover {
   text-decoration: none;
-  color: rgb(0, 0, 0);
-  transition: all 0.3s;
-  background: rgb(255, 255, 255);
+  color: #000;
+  transition: all .3s;
+  background: #fff
 }
 
 .hover:hover {
   text-decoration: none;
-  color: rgb(0, 0, 0);
-  background: rgb(255, 255, 255);
-  transition: all 0.2s;
-  transform: scale(1.03);
+  color: #000;
+  background: #fff;
+  transition: all .2s;
+  transform: scale(1.03)
 }
 
 .bottom-text {
@@ -88,32 +85,32 @@
   text-align: center;
   margin-top: 30px;
   font-size: 20px;
-  color: rgb(255, 255, 255);
-  font-family: "Handlee", cursive;
+  color: #fff;
+  font-family: Handlee, cursive
 }
 
 .link-hide {
-  text-decoration: none;
+  text-decoration: none
 }
 
 .link-hide:hover {
-  text-decoration: none;
+  text-decoration: none
 }
 
-@media (max-width: 548px) {
+@media (max-width:548px) {
   .profile-about {
     text-align: center;
     padding: 2px;
-    font-family: "Dosis", sans-serif;
-    color: white;
+    font-family: Dosis, sans-serif;
+    color: #fff;
     font-size: 15px;
-    letter-spacing: 1px;
+    letter-spacing: 1px
   }
 }
 
 .links-footer {
   padding: 4px;
-  border: 0.5px solid rgb(255, 255, 255);
+  border: .5px solid #fff;
   border-width: 1px;
   width: 40px;
   display: inline-block;
@@ -122,21 +119,20 @@
   text-align: center;
   margin: 10px;
   margin-top: 50px;
-  color: rgb(0, 0, 0);
+  color: #000;
   transition: color 1s;
-  transition: all 0.3s;
-  background: rgb(255, 255, 255);
-
+  transition: all .3s;
+  background: #fff
 }
 
 .links-footer:hover {
-  color: rgb(0, 0, 0);
-  background: rgb(255, 255, 255);
-  transition: all 0.3s;
+  color: #000;
+  background: #fff;
+  transition: all .3s
 }
 
-.space{
-  padding-top: 40px;
+.space {
+  padding-top: 40px
 }
 
 .drag {
@@ -144,6 +140,5 @@
   -khtml-user-drag: none;
   -moz-user-drag: none;
   -o-user-drag: none;
-  user-drag: none;
+  -user-drag: none
 }
-
