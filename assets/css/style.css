@@ -1,11 +1,11 @@
 .bg {
-  background: rgba(255, 255, 255, .31);
+  background: #19191B;
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, .1);
   backdrop-filter: blur(12.1px);
   -webkit-backdrop-filter: blur(12.1px);
-  background-image: url(https://harindu.me/assets/img/snow.webp);
-  background-attachment: fixed
+  /*background-image: url(https://harindu.me/assets/img/snow.webp);
+  background-attachment: fixed*/
 }
 
 .profile-picture {
@@ -22,7 +22,7 @@
   padding: 10px;
   font-family: Karla, sans-serif;
   font-weight: 700;
-  color: #fff;
+  color: #FEFFFE;
   font-size: 20px
 }
 
@@ -30,7 +30,7 @@
   text-align: center;
   padding: 2px;
   font-family: Dosis, sans-serif;
-  color: #fff;
+  color: #FEFFFE;
   font-size: 15px;
   letter-spacing: 2px
 }
@@ -41,7 +41,7 @@
   margin-left: auto;
   margin-right: auto;
   padding: 15px;
-  border: .5px solid #fff;
+  border: .5px solid #27262B;
   border-width: 1px;
   display: block;
   border-radius: 10px;
@@ -53,9 +53,10 @@
   transition: all .3s ease-in-out
 }
 
+
 .links-in {
   padding: 5px;
-  border: .5px solid rgba(255, 255, 255, 0);
+  border: .5px solid #ffffff00;
   border-width: 1px;
   width: 30px;
   display: block;
@@ -67,15 +68,15 @@
 
 .hover {
   text-decoration: none;
-  color: #000;
+  color: #FEFFFE;
   transition: all .3s;
-  background: #fff
+  background: #27262B
 }
 
 .hover:hover {
   text-decoration: none;
-  color: #000;
-  background: #fff;
+  color: #FEFFFE;
+  background: #27262B;
   transition: all .2s;
   transform: scale(1.03)
 }
@@ -85,7 +86,7 @@
   text-align: center;
   margin-top: 30px;
   font-size: 20px;
-  color: #fff;
+  color: #FEFFFE;
   font-family: Handlee, cursive
 }
 
@@ -102,7 +103,7 @@
     text-align: center;
     padding: 2px;
     font-family: Dosis, sans-serif;
-    color: #fff;
+    color: #FEFFFE;
     font-size: 15px;
     letter-spacing: 1px
   }
@@ -110,7 +111,7 @@
 
 .links-footer {
   padding: 4px;
-  border: .5px solid #fff;
+  border: .5px solid #FEFFFE;
   border-width: 1px;
   width: 40px;
   display: inline-block;
@@ -122,12 +123,12 @@
   color: #000;
   transition: color 1s;
   transition: all .3s;
-  background: #fff
+  background: #FEFFFE
 }
 
 .links-footer:hover {
   color: #000;
-  background: #fff;
+  background: #FEFFFE;
   transition: all .3s
 }
 
